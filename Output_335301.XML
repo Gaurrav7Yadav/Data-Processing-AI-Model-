@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns1:Envelope xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns3="urn:schemas-qad-com:xml-services:common">
+  <ns1:Header xmlns:ns4="http://www.w3.org/2005/08/addressing">
+    <ns4:To>urn:services-qad-com:INTEGRATION</ns4:To>
+    <ns4:MessageID>335301</ns4:MessageID>
+  </ns1:Header>
+  <ns1:Body>
+    <ns2:productionReportingE80 xmlns:ns2="urn:schemas-qad-com:xml-services">
+      <ns3:dsSessionContext>
+        <ns3:ttContext>
+          <ns3:propertyQualifier>QAD</ns3:propertyQualifier>
+          <ns3:propertyName>domain</ns3:propertyName>
+          <ns3:propertyValue>US01</ns3:propertyValue>
+        </ns3:ttContext>
+        <ns3:ttContext>
+          <ns3:propertyQualifier>QAD</ns3:propertyQualifier>
+          <ns3:propertyName>version</ns3:propertyName>
+          <ns3:propertyValue>CUST_1</ns3:propertyValue>
+        </ns3:ttContext>
+      </ns3:dsSessionContext>
+      <ns2:dsProdReport>
+        <ns2:ttOrder>
+          <ns2:Order_OID>2021040910030472318624872001</ns2:Order_OID>
+          <ns2:ProdOrderID>88264</ns2:ProdOrderID>
+          <ns2:ProdLine>MP1</ns2:ProdLine>
+          <ns2:ASNID>8826401400</ns2:ASNID>
+          <ns2:ttOrderDetails>
+            <ns2:Order_OID>2021040910030472318624872001</ns2:Order_OID>
+            <ns2:OrderDet_OID>2021040910030417870355317001</ns2:OrderDet_OID>
+            <ns2:ItemNumber>35985800347</ns2:ItemNumber>
+            <ns2:Location>PLTZER</ns2:Location>
+            <ns2:UOM>CS</ns2:UOM>
+            <ns2:Quantity>104.000</ns2:Quantity>
+            <ns2:LotSerial>D0921U2GL</ns2:LotSerial>
+            <ns2:Site>6030</ns2:Site>
+            <ns2:LPN>603010001617980273</ns2:LPN>
+            <ns2:PackCode>LP</ns2:PackCode>
+          </ns2:ttOrderDetails>
+        </ns2:ttOrder>
+      </ns2:dsProdReport>
+    </ns2:productionReportingE80>
+  </ns1:Body>
+</ns1:Envelope>

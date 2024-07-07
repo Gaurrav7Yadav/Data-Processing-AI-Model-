@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns1:Envelope xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns3="urn:schemas-qad-com:xml-services:common">
+  <ns1:Header xmlns:ns4="http://www.w3.org/2005/08/addressing">
+    <ns4:To>urn:services-qad-com:INTEGRATION</ns4:To>
+    <ns4:MessageID>335300</ns4:MessageID>
+  </ns1:Header>
+  <ns1:Body>
+    <ns2:productionReportingE80 xmlns:ns2="urn:schemas-qad-com:xml-services">
+      <ns3:dsSessionContext>
+        <ns3:ttContext>
+          <ns3:propertyQualifier>QAD</ns3:propertyQualifier>
+          <ns3:propertyName>domain</ns3:propertyName>
+          <ns3:propertyValue>US01</ns3:propertyValue>
+        </ns3:ttContext>
+        <ns3:ttContext>
+          <ns3:propertyQualifier>QAD</ns3:propertyQualifier>
+          <ns3:propertyName>version</ns3:propertyName>
+          <ns3:propertyValue>CUST_1</ns3:propertyValue>
+        </ns3:ttContext>
+      </ns3:dsSessionContext>
+      <ns2:dsProdReport>
+        <ns2:ttOrder>
+          <ns2:Order_OID>2021040910030274166152874001</ns2:Order_OID>
+          <ns2:ttOrderDetails>
+            <ns2:Order_OID>2021040910030274166152874001</ns2:Order_OID>
+            <ns2:OrderDet_OID>2021040910030238363516738001</ns2:OrderDet_OID>
+            <ns2:Site>6030</ns2:Site>
+            <ns2:PackCode>LP</ns2:PackCode>
+          </ns2:ttOrderDetails>
+        </ns2:ttOrder>
+      </ns2:dsProdReport>
+    </ns2:productionReportingE80>
+  </ns1:Body>
+</ns1:Envelope>

@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dsMessageDBIN xmlns:ns1="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns3="urn:schemas-qad-com:xml-services:common">
+  <ns2:tt_inQueue xmlns:ns2="urn:schemas-qad-com:xml-services">
+    <ns2:oid_inQueue>2021040910030297931908797001</ns2:oid_inQueue>
+    <ns2:qadDomain>US01</ns2:qadDomain>
+    <ns2:qadEntity>760</ns2:qadEntity>
+    <ns2:transID>335300</ns2:transID>
+    <ns2:interfaceName>PRODREPORT-E80</ns2:interfaceName>
+    <ns2:siteCode>6030</ns2:siteCode>
+    <ns2:dateAdded>2021-04-09T10:03:02.642</ns2:dateAdded>
+    <ns2:startDate>2021-04-09T10:03:02.642</ns2:startDate>
+    <ns2:processStatus>WIP</ns2:processStatus>
+    <ns2:addedBy>E80</ns2:addedBy>
+    <ns2:targetApp>E80</ns2:targetApp>
+    <ns2:tt_inQueueDetail1>
+      <ns2:oid_inQueue>2021040910030297931908797001</ns2:oid_inQueue>
+      <ns2:dataNode>Header</ns2:dataNode>
+      <ns2:tt_inQueueDetail2>
+        <ns2:oid_inQueueDetail2>2021040910030295690091995001</ns2:oid_inQueueDetail2>
+        <ns2:fld06>6030</ns2:fld06>
+      </ns2:tt_inQueueDetail2>
+    </ns2:tt_inQueueDetail1>
+  </ns2:tt_inQueue>
+</dsMessageDBIN>
